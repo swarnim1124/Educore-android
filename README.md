@@ -68,19 +68,5 @@ Firebase (Crashlytics/Performance) is optional. Add your own `app/google-service
 
 
 
-## My contributions
-
-- Designed and built the multi-module Android architecture (Kotlin, Jetpack Compose, Hilt, Clean Architecture) with isolated feature modules and shared SDKs
-- Converted the `login` and `dashboard` features to Play Feature Delivery (dynamic-feature modules): login is install-time, dashboard is on-demand, and navigation is registered through a `FeatureEntryPoint` / `ServiceLoader` pattern
-- Implemented JSON-driven white-labeling so one app can be branded per institution
-- Integrated the app with the backend's single-endpoint dispatcher through a typed network SDK, including token refresh and session handling
-- Presented the app's architecture at a developer meetup
-
-
-
-
-## Credits
-
-Developed collaboratively as part of an education ERP platform. Add contributor names here.
-
+Developed collaboratively. Original framework authors: Swarnim Deshpande, R V KirrthannaS.
 
