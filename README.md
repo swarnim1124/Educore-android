@@ -24,10 +24,7 @@ feature/
   attendance/  exam/  curriculum/  fee/
 core/                    # Shared base, navigation, permissions, observability
 sdk/
-  XscNetworkSDK  XscAuthSDK  XscThemeSDK  XscCommonUI
-  XscQRCodeSDK   XscCameraSDK  XscMediaSDK  XscFileSDK  XscChatSDK
-branding/  config/  plugins/
-```
+
 
 Data flow per feature: `Screen → ViewModel (state/events) → UseCase → Repository → API/DB`.
 
