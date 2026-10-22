@@ -65,14 +65,16 @@ Firebase (Crashlytics/Performance) is optional. Add your own `app/google-service
 - [Backend endpoint requirements](docs/BACKEND_ENDPOINT_REQUIREMENTS.md)
 - [Production readiness log](docs/PRODUCTION_READINESS.md)
 
+
+
+
 ## My contributions
 
-
-- Co-developed the `m_super_admin` module: module/sub-module registry, action and action-type management, system config, and master data management (MDM) for institutions
-- Worked on the FastAPI dispatcher backend: modular routing, RBAC and dynamic permissions, JWT authentication
-- Built data tooling for the PostgreSQL schema, including seeding and verification scripts for the profile and exam modules
-- Wrote API contracts and documentation so the Android and web clients could integrate against the modules
-- Collaborated with a team of 3 backend developers on module design and code reviews
+- Designed and built the multi-module Android architecture (Kotlin, Jetpack Compose, Hilt, Clean Architecture) with isolated feature modules and shared SDKs
+- Converted the `login` and `dashboard` features to Play Feature Delivery (dynamic-feature modules): login is install-time, dashboard is on-demand, and navigation is registered through a `FeatureEntryPoint` / `ServiceLoader` pattern
+- Implemented JSON-driven white-labeling so one app can be branded per institution
+- Integrated the app with the backend's single-endpoint dispatcher through a typed network SDK, including token refresh and session handling
+- Presented the app's architecture at a developer meetup
 
 
 
