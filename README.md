@@ -10,20 +10,6 @@ A modular education ERP backend built with **FastAPI** and **PostgreSQL**. It co
 
 Android client: [educore-android](https://github.com/<your-username>/educore-android)
 
-## Screenshots
-
-### Student Dashboard
-![Student Dashboard](images/dashboard.png)
-
-### Examination Hall Ticket
-![Examination Hall Ticket](images/hall-ticket.png)
-
-### Exams
-![Exams](images/exams.png)
-
-### Manage Pinned Modules
-![Manage Pinned Modules](images/pinned-modules.png)
-
 ## Highlights
 
 - **Dispatcher architecture.** One `POST /` endpoint routes requests to `module → submodule → action` by naming convention. Adding a feature means adding a file, not editing a router.
@@ -161,3 +147,17 @@ Developed collaboratively. Original framework authors: Siddharth Amdal, Akshay B
 ## License
 
 See [LICENSE](LICENSE).
+
+## Screenshots
+
+### Student Dashboard
+![Student Dashboard](images/dashboard.png)
+
+### Examination Hall Ticket
+![Examination Hall Ticket](images/hall-ticket.png)
+
+### Exams
+![Exams](images/exams.png)
+
+### Manage Pinned Modules
+![Manage Pinned Modules](images/pinned-modules.png)
