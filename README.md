@@ -70,10 +70,15 @@ Firebase (Crashlytics/Performance) is optional. Add your own `app/google-service
 
 ## My contributions
 
-> Edit this to match what you actually built.
 
-- _<modules / features you owned, e.g. login, profile, fee>_
-- _<architecture, testing, CI, performance work>_
+- Co-developed the `m_super_admin` module: module/sub-module registry, action and action-type management, system config, and master data management (MDM) for institutions
+- Worked on the FastAPI dispatcher backend: modular routing, RBAC and dynamic permissions, JWT authentication
+- Built data tooling for the PostgreSQL schema, including seeding and verification scripts for the profile and exam modules
+- Wrote API contracts and documentation so the Android and web clients could integrate against the modules
+- Collaborated with a team of 3 backend developers on module design and code reviews
+
+
+
 
 ## Credits
 
