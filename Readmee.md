@@ -8,18 +8,18 @@
 
 A modular education ERP backend built with **FastAPI** and **PostgreSQL**. It covers authentication and RBAC, student profiles, curriculum, timetables, attendance, exams and fees. All of it runs behind a **single dynamic-dispatch endpoint** instead of hundreds of hand-registered routes.
 
-Android client: [educore-android](https://github.com/<your-username>/educore-android)
+Android client: [educore-android](https://github.com/swarnim1124/Educore-android)
 
 ## Screenshots
 
 ### Student Dashboard
 ![Student Dashboard](images/dashboard.png)
 
-### Examination Hall Ticket
-![Examination Hall Ticket](images/hall-ticket.png)
-
 ### Exams
 ![Exams](images/exams.png)
+
+### Hall Ticket
+![Hall Ticket](images/hall-ticket.png)
 
 ### Manage Pinned Modules
 ![Manage Pinned Modules](images/pinned-modules.png)
