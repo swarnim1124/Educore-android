@@ -79,6 +79,4 @@ Firebase (Crashlytics/Performance) is optional. Add your own `app/google-service
 
 Developed collaboratively as part of an education ERP platform. Add contributor names here.
 
-## License
 
-Add a LICENSE file before publishing.
